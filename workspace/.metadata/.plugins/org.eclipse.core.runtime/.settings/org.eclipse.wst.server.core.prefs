@@ -1,0 +1,2 @@
+eclipse.preferences.version=1
+runtimes=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<runtimes>\r\n  <runtime id\="J2EE Runtime Library" location\="C\:/Users/salvanoa/Programme/glassfish5/glassfish/modules" name\="J2EE Runtime Library" runtime-type-id\="org.eclipse.jst.server.core.runtimeType" timestamp\="0"/>\r\n</runtimes>\r\n

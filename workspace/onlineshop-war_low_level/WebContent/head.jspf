@@ -1,0 +1,36 @@
+<%@page 
+	contentType="text/html" 
+	pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" 
+	uri="http://java.sun.com/jsp/jstl/core"%>
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<link 
+			rel="stylesheet" 
+			href="css/styles.css">
+		<title>Onlineshop</title>
+	</head>
+	<body>
+		<header>
+		<hgroup>
+			<h1 class="title">
+				Onlineshop
+			</h1>
+		</hgroup>
+		<nav>
+			<a href="index.jsp">Home</a>
+			<c:choose>
+			<c:when test="${empty customer}">
+				<a href="register.jsp">Registrieren</a>
+				<a href="signin.jsp">Einloggen</a>
+			</c:when>
+			<c:otherwise>
+				<a href="signout.jsp">Ausloggen</a>
+				<a href="sell.jsp">Verkaufen</a>
+			</c:otherwise>
+			</c:choose>
+			<a href="search.jsp">Suchen</a>
+		</nav>
+		</header>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="onlineshop-war_high_level">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <property name="context-root" value="onlineshop-war_high_level"/>
+        <property name="java-output-path" value="/onlineshop-war_high_level/build/classes"/>
+    </wb-module>
+</project-modules>
